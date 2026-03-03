@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "polyposiss"
+version = "0.1.0"
+description = ""
+authors = ["Nordrussian <nordrussian@ya.ru>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+asyncpg = "0.30.0"
+psycopg2-binary = "2.9.9"
+redis = "7.2.1"
+requests = "2.32.5"
+python-dotenv = "1.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "9.0.2"
+pytest-asyncio = "1.3.0"
+httpx = "0.28.1"
+pytest-cov = "6.3.0"
+debugpy = "1.8.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

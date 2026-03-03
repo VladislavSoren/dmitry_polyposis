@@ -174,5 +174,11 @@ cython_debug/
 # дополнительно
 sup_script.py
 .vscode
+
+
+
+
+
 *.sqlite3
 *.DS_Store
+Template_root
