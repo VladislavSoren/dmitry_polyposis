@@ -10,3 +10,8 @@ COPY poetry.lock pyproject.toml ./
 RUN poetry install
 
 COPY . .
+
+
+RUN chmod +x ./prestart.sh
+
+ENTRYPOINT ["./prestart.sh"]
